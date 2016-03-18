@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             TextView powerTextView = (TextView) findViewById(
                     R.id.power_text_view);
             powerTextView.setText("ON");
-            powerTextView.setTextColor(Color.GREEN);
+            powerTextView.setTextColor(Color.RED);
             power = "ON";
 
             return;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             TextView powerTextView = (TextView) findViewById(
                     R.id.power_text_view);
             powerTextView.setText("OFF");
-            powerTextView.setTextColor(Color.RED);
+            powerTextView.setTextColor(Color.GRAY);
             power = "OFF";
 
             return;
